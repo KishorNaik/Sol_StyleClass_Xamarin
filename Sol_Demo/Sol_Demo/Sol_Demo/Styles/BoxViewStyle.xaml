@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style TargetType="BoxView" Class="BoxViewHorizontalOptions">
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+    </Style>
+    
+    <Style TargetType="BoxView" Class="BoxViewBackground">
+        <Setter Property="BackgroundColor" Value="Orange" />
+    </Style>
+
+    <Style TargetType="BoxView" Class="BoxViewCornorRadius">
+        <Setter Property="CornerRadius" Value="50"></Setter>
+    </Style>
+</ResourceDictionary>
